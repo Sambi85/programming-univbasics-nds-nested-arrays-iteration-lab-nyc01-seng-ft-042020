@@ -5,11 +5,6 @@ def join_ingredients(src)
   # inserted into this template:
   #
   # "I love (inner array element 0) and (inner array element 1) on my pizza""
-  
-
-  
-  
-  
   array1 = [];
   
   i = 0
@@ -20,8 +15,6 @@ end
 
 array1
 end
-
-
 
 def find_greater_pair(src)
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
@@ -42,7 +35,6 @@ while i < src.count do
     i += 1
 end
 great_pair 
-
 end
 
 def total_even_pairs(src)
