@@ -55,10 +55,14 @@ while row_index < src.count do
     if src[row_index][0].modulo(2) == 0 && src[row_index][1].modulo(2) == 0 
     total += src[row_index][0] += src[row_index][1]
   end
-  end
+  
+  
   element_index += 1
+  
   end
+  
   row_index += 1
+
 end
 
 total
